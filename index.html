@@ -607,8 +607,8 @@ function buildApp() {
   app.append(h('div', { class: 'section-label' }, 'Top 3'));
   app.append(
     h('div', { class: 'podium' },
-      makePodiumCard(top3[1], 'second'),
       makePodiumCard(top3[0], 'first'),
+      makePodiumCard(top3[1], 'second'),
       makePodiumCard(top3[2], 'third')
     )
   );
